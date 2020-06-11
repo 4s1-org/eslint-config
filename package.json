@@ -2,6 +2,7 @@
   "name": "@yellowgarbagebag/eslint-config",
   "version": "0.0.2",
   "description": "ESLint config",
+  "main": "./prettier.config.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@gitlab.com/YellowGarbageBag/eslint-config.git"
