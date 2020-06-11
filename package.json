@@ -16,8 +16,7 @@
   "scripts": {
     "format": "prettier --write \"example/**/*.ts\"",
     "lint": "eslint \"example/**/*.ts\"",
-    "lint:fix": "eslint \"example/**/*.ts\" --fix",
-    "publish": "npm publish --access public"
+    "lint:fix": "eslint \"example/**/*.ts\" --fix"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.2.0",
