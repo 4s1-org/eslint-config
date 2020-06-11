@@ -13,7 +13,8 @@
   },
   "homepage": "https://gitlab.com/YellowGarbageBag/eslint-config",
   "peerDependencies": {
-    "eslint": ">=7.2.0"
+    "eslint": ">=7.2.0",
+    "prettier": ">= 2.0.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.2.0",
@@ -23,7 +24,6 @@
     "eslint-config-prettier": "^6.11.0",
     "prettier": "^2.0.5"
   },
-
   "scripts": {
     "lint": "eslint \"example/**/*.ts\"",
     "lint:fix": "eslint \"example/**/*.ts\" --fix"
