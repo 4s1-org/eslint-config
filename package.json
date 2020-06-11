@@ -1,6 +1,6 @@
 {
   "name": "@yellowgarbagebag/eslint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ESLint config",
   "homepage": "https://gitlab.com/YellowGarbageBag/eslint-config",
   "bugs": {
@@ -14,8 +14,10 @@
   "author": "Steffen",
   "main": "./prettier.config.js",
   "scripts": {
+    "format": "prettier --write \"example/**/*.ts\"",
     "lint": "eslint \"example/**/*.ts\"",
-    "lint:fix": "eslint \"example/**/*.ts\" --fix"
+    "lint:fix": "eslint \"example/**/*.ts\" --fix",
+    "publish": "npm publish --access public"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.2.0",
