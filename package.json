@@ -1,6 +1,6 @@
 {
   "name": "@yellowgarbagebag/eslint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ESLint config",
   "main": "./prettier.config.js",
   "repository": {
@@ -27,7 +27,8 @@
   },
   "scripts": {
     "lint": "eslint \"example/**/*.ts\"",
-    "lint:fix": "eslint \"example/**/*.ts\" --fix"
+    "lint:fix": "eslint \"example/**/*.ts\" --fix",
+    "publish": "npm publish --access public"
   },
   "devDependencies": {
     "typescript": "^3.9.5"
