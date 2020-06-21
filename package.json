@@ -2,34 +2,37 @@
   "name": "@yellowgarbagebag/eslint-config",
   "version": "0.0.2",
   "description": "ESLint config",
-  "main": "./prettier.config.js",
+  "homepage": "https://gitlab.com/YellowGarbageBag/eslint-config",
+  "bugs": {
+    "url": "https://gitlab.com/YellowGarbageBag/eslint-config/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@gitlab.com/YellowGarbageBag/eslint-config.git"
   },
-  "author": "Steffen",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/YellowGarbageBag/eslint-config/issues"
-  },
-  "homepage": "https://gitlab.com/YellowGarbageBag/eslint-config",
-  "peerDependencies": {
-    "eslint": ">=7.2.0",
-    "prettier": ">= 2.0.0"
+  "author": "Steffen",
+  "main": "./prettier.config.js",
+  "scripts": {
+    "lint": "eslint \"example/**/*.ts\"",
+    "lint:fix": "eslint \"example/**/*.ts\" --fix"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.2.0",
     "@typescript-eslint/parser": "^3.2.0",
     "eslint": "^7.2.0",
-    "eslint-plugin-import": "^2.21.2",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
     "prettier": "^2.0.5"
-  },
-  "scripts": {
-    "lint": "eslint \"example/**/*.ts\"",
-    "lint:fix": "eslint \"example/**/*.ts\" --fix"
   },
   "devDependencies": {
     "typescript": "^3.9.5"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.2.0",
+    "prettier": ">= 2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
