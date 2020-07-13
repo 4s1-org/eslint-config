@@ -14,11 +14,6 @@ extends:
   - "prettier"
   - "prettier/@typescript-eslint"
 rules:
-  "@typescript-eslint/quotes":
-    - error
-    - double
-    - avoidEscape: true
-      allowTemplateLiterals: false
   "@typescript-eslint/semi":
     - error
     - never
