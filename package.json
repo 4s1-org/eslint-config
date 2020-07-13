@@ -1,6 +1,6 @@
 {
   "name": "@hest-lab/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint config",
   "homepage": "https://gitlab.com/hest-lab/eslint-config",
   "bugs": {
