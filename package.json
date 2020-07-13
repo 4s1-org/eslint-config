@@ -35,5 +35,9 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "eslint",
+    "prettier"
+  ]
 }
