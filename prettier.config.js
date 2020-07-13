@@ -1,6 +1,7 @@
-"use strict"
+'use strict'
 
 module.exports = {
   semi: false,
-  trailingComma: "all",
+  trailingComma: 'all',
+  singleQuote: true,
 }
