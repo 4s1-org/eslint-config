@@ -11,7 +11,7 @@
     "url": "git+ssh://git@gitlab.com/hest-lab/eslint-config.git"
   },
   "license": "ISC",
-  "author": "Steffen",
+  "author": "hest-lab",
   "main": "./prettier.config.js",
   "scripts": {
     "format": "prettier --write \"example/**/*.ts\"",
