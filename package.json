@@ -1,14 +1,14 @@
 {
-  "name": "@yellowgarbagebag/eslint-config",
+  "name": "@hest-lab/eslint-config",
   "version": "0.0.4",
   "description": "ESLint config",
-  "homepage": "https://gitlab.com/YellowGarbageBag/eslint-config",
+  "homepage": "https://gitlab.com/hest-lab/eslint-config",
   "bugs": {
-    "url": "https://gitlab.com/YellowGarbageBag/eslint-config/issues"
+    "url": "https://gitlab.com/hest-lab/eslint-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/YellowGarbageBag/eslint-config.git"
+    "url": "git+ssh://git@gitlab.com/hest-lab/eslint-config.git"
   },
   "license": "ISC",
   "author": "Steffen",
