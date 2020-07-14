@@ -2,6 +2,10 @@
   "name": "@hest-lab/eslint-config",
   "version": "1.0.1",
   "description": "ESLint config",
+  "keywords": [
+    "eslint",
+    "prettier"
+  ],
   "homepage": "https://gitlab.com/hest-lab/eslint-config",
   "bugs": {
     "url": "https://gitlab.com/hest-lab/eslint-config/issues"
@@ -35,9 +39,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "keywords": [
-    "eslint",
-    "prettier"
-  ]
+  }
 }
