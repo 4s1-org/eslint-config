@@ -1,5 +1,7 @@
 /node_modules/
-vscode.code-workspace
+/vscode.code-workspace
 /.editorconfig
 /example/
 /.vscode/
+/tsconfig.json
+/deploy.sh
