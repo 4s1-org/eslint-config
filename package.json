@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "ESLint config",
   "keywords": [
+    "hest-lab",
     "eslint",
     "prettier"
   ],

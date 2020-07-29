@@ -1,3 +1,3 @@
 # ESlint Config
 
-This is a personal package for eslint config.
+These are settings for eslint and prettier.
