@@ -18,6 +18,10 @@
   "license": "ISC",
   "author": "hest-lab",
   "main": "./prettier.config.js",
+  "maintainers": [
+    "Steffen <yellowgarbagebage@4s1.de>",
+    "Hendrik Schwalm <mail@hendrikschwalm.de> (https://schwalmlab.de)"
+  ],
   "scripts": {
     "format": "prettier --write \"example/**/*.ts\"",
     "lint": "eslint \"example/**/*.ts\"",
