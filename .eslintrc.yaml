@@ -22,3 +22,6 @@ rules:
   # Allow "any"
   "@typescript-eslint/no-explicit-any":
     - off
+  # Allow empty interface
+  "@typescript-eslint/no-empty-interface":
+    - off

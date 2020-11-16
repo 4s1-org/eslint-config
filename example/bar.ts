@@ -5,3 +5,5 @@ console.log(foo, bar)
 interface Fjklsdf {
   name: string
 }
+
+interface Foo {}
