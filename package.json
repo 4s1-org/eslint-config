@@ -1,31 +1,27 @@
 {
-  "name": "@hest-lab/eslint-config",
-  "version": "1.8.0",
+  "name": "@yellowgarbagegroup/eslint-config",
+  "version": "2.0.0",
   "description": "ESLint config",
   "keywords": [
     "hest-lab",
     "eslint",
     "prettier"
   ],
-  "homepage": "https://gitlab.com/hest-lab/eslint-config",
+  "homepage": "https://gitlab.com/YellowGarbageGroup/eslint-config",
   "bugs": {
-    "url": "https://gitlab.com/hest-lab/eslint-config/issues"
+    "url": "https://gitlab.com/YellowGarbageGroup/eslint-config/issues"
   },
-  "files": [
-    "prettier.config.js",
-    ".eslintrc.yaml"
-  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@gitlab.com/hest-lab/eslint-config.git"
   },
-  "license": "ISC",
-  "author": "hest-lab",
-  "maintainers": [
-    "Steffen <yellowgarbagebage@4s1.de>",
-    "Hendrik Schwalm <mail@hendrikschwalm.de> (https://schwalmlab.de)"
-  ],
+  "license": "MIT",
+  "author": "Steffen",
   "main": "./prettier.config.js",
+  "files": [
+    "prettier.config.js",
+    ".eslintrc.yaml"
+  ],
   "scripts": {
     "format": "prettier --write \"example/**/*.ts\"",
     "lint": "eslint --ext ts example/",
@@ -47,6 +43,7 @@
     "prettier": ">= 2.3.0"
   },
   "publishConfig": {
+    "@yellowgarbagegroup:registry": "https://gitlab.com/api/v4/projects/28730798/packages/npm/",
     "access": "public"
   }
 }
