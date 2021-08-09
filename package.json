@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/hest-lab/eslint-config.git"
+    "url": "git+ssh://git@gitlab.com/YellowGarbageGroup/eslint-config.git"
   },
   "license": "MIT",
   "author": "Steffen",
