@@ -1,6 +1,6 @@
 {
   "name": "@yellowgarbagegroup/eslint-config",
-  "version": "3.0.0",
+  "version": "1.8.0",
   "description": "ESLint config",
   "keywords": [
     "hest-lab",
