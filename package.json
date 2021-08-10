@@ -16,7 +16,7 @@
     "url": "git+ssh://git@gitlab.com/YellowGarbageGroup/eslint-config.git"
   },
   "license": "MIT",
-  "author": "Steffen",
+  "author": "Steffen <YellowGarbageBag@4s1.de>",
   "main": "./prettier.config.js",
   "files": [
     "prettier.config.js",
