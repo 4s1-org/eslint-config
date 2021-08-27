@@ -1,0 +1,33 @@
+stages:
+  - building
+  - deploying
+
+lbt:
+  stage: building
+  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine
+  cache:
+    key: "$CI_COMMIT_REF_SLUG"
+    paths:
+      - .pnpm-store
+  script:
+    - pnpm i
+    - pnpm lint
+    - pnpm build
+    - pnpm test
+
+publish:
+  stage: deploying
+  image: registry.gitlab.com/yellowgarbagegroup/docker-images/node:14-alpine-dev
+  cache:
+    key: "$CI_COMMIT_REF_SLUG"
+    paths:
+      - .pnpm-store
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  variables:
+    NPM_TOKEN: ${CI_JOB_TOKEN}
+  before_script:
+    - echo "//${CI_SERVER_HOST}/api/v4/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
+  script:
+    - pnpm i
+    - pnpm run semantic-release

@@ -22,9 +22,13 @@
     ".eslintrc.yaml"
   ],
   "scripts": {
+    "build": "echo no build script",
     "format": "prettier --write \"example/**/*.ts\"",
+    "lbt": "pnpm run lint && pnpm run build && pnpm run test",
     "lint": "eslint --ext ts example/",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "semantic-release": "semantic-release",
+    "test": "echo no tests"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.2",
