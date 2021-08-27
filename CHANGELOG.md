@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.1.1](https://gitlab.com/YellowGarbageGroup/eslint-config/compare/v2.1.0...v2.1.1) (2021-08-27)
+
+
+### Bug Fixes
+
+* format files ([950a693](https://gitlab.com/YellowGarbageGroup/eslint-config/commit/950a693622bcc5799f3dd3b90994712f651c2878))
+
 ## [2.1.0](https://gitlab.com/YellowGarbageGroup/eslint-config/compare/v2.0.0...v2.1.0) (2021-08-27)
 
 
