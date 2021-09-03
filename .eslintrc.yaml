@@ -2,30 +2,33 @@ root: true
 env:
   node: true
   jest: true
-parser: "@typescript-eslint/parser"
+parser: '@typescript-eslint/parser'
 plugins:
-  - "@typescript-eslint/eslint-plugin"
+  - '@typescript-eslint/eslint-plugin'
 extends:
-  - "plugin:@typescript-eslint/eslint-recommended"
-  - "plugin:@typescript-eslint/recommended"
-  - "prettier"
+  - 'plugin:@typescript-eslint/eslint-recommended'
+  - 'plugin:@typescript-eslint/recommended'
+  - 'prettier'
 rules:
+  # allow @ts-ignore
+  '@typescript-eslint/ban-ts-comment':
+    - off
   # Parameter could be any type
-  "@typescript-eslint/explicit-module-boundary-types":
+  '@typescript-eslint/explicit-module-boundary-types':
     - error
     - allowArgumentsExplicitlyTypedAsAny: true
   # No semicolon
-  "@typescript-eslint/semi":
+  '@typescript-eslint/semi':
     - error
     - never
   # Functions need return types
-  "@typescript-eslint/explicit-function-return-type":
+  '@typescript-eslint/explicit-function-return-type':
     - error
   # Allow "any"
-  "@typescript-eslint/no-explicit-any":
+  '@typescript-eslint/no-explicit-any':
     - off
   # Allow empty interface
-  "@typescript-eslint/no-empty-interface":
+  '@typescript-eslint/no-empty-interface':
     - off
   # Max. line length
   max-len:
