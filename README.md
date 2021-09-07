@@ -9,17 +9,17 @@ Create a `.eslintrc.yaml` file in your project and add the following content:
 ```text
 root: true
 extends:
-  - "@yellowgarbagegroup/eslint-config/.eslintrc.yaml"
+  - "@4s1/eslint-config/.eslintrc.yaml"
 ```
 
 To use prettier add the following line in your `package.json`
 
 ```text
-"prettier": "@yellowgarbagegroup/eslint-config"
+"prettier": "@4s1/eslint-config"
 ```
 
 Add this package to your project:
 
 ```bash
-pnpm add @yellowgarbagegroup/eslint-config -D
+pnpm add @4s1/eslint-config -D
 ```
