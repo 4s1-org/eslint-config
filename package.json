@@ -6,14 +6,10 @@
     "eslint",
     "prettier"
   ],
-  "homepage": "https://gitlab.com/4s1/eslint-config",
   "bugs": {
     "url": "https://gitlab.com/4s1/eslint-config/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gitlab.com/4s1/eslint-config.git"
-  },
+  "repository": "gitlab:4s1/eslint-config",
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
   "main": "./prettier.config.js",
