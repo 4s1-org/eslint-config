@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.1](https://gitlab.com/4s1/eslint-config/compare/v3.1.0...v3.1.1) (2021-09-09)
+
+
+### Bug Fixes
+
+* url in package.json ([58cc6ea](https://gitlab.com/4s1/eslint-config/commit/58cc6ea368a61aa017b88ee83793468f84f19ea6))
+
 ## [3.1.0](https://gitlab.com/4s1/eslint-config/compare/v3.0.0...v3.1.0) (2021-09-09)
 
 
