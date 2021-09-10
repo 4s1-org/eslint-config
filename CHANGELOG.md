@@ -1,5 +1,18 @@
 # Changelog
 
+### [3.1.2](https://gitlab.com/4s1/eslint-config/compare/v3.1.1...v3.1.2) (2021-09-10)
+
+
+### Bug Fixes
+
+* update dependencies ([4837179](https://gitlab.com/4s1/eslint-config/commit/48371794c979af05bd7af3d98750800571926cc7))
+
+
+### Renovate Bot
+
+* update dependency @4s1/semantic-release-config to v2.0.1 ([79d4e92](https://gitlab.com/4s1/eslint-config/commit/79d4e9236b93cd66ee8dca948d75b86358be6c32))
+* update dependency conventional-changelog-conventionalcommits to v4.6.1 ([a1da212](https://gitlab.com/4s1/eslint-config/commit/a1da21238c31ad9b76584f83acdb48a6d017a54d))
+
 ### [3.1.1](https://gitlab.com/4s1/eslint-config/compare/v3.1.0...v3.1.1) (2021-09-09)
 
 
