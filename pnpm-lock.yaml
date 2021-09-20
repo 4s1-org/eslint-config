@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@4s1/changelog-config': 2.0.0
+  '@4s1/changelog-config': 2.0.1
   '@4s1/eslint-config': 3.1.2
   '@commitlint/cli': 13.1.0
   '@commitlint/config-conventional': 13.1.0
@@ -23,7 +23,7 @@ dependencies:
   eslint-plugin-import: 2.24.2_eslint@7.32.0
 
 devDependencies:
-  '@4s1/changelog-config': 2.0.0
+  '@4s1/changelog-config': 2.0.1
   '@4s1/eslint-config': 'link:'
   '@commitlint/cli': 13.1.0
   '@commitlint/config-conventional': 13.1.0
@@ -36,8 +36,8 @@ devDependencies:
 
 packages:
 
-  /@4s1/changelog-config/2.0.0:
-    resolution: {integrity: sha1-mvTMbJbM+uhdZ1lHCvC+APysZ0Y=, tarball: https://gitlab.com/api/v4/projects/29686867/packages/npm/@4s1/changelog-config/-/@4s1/changelog-config-2.0.0.tgz}
+  /@4s1/changelog-config/2.0.1:
+    resolution: {integrity: sha1-/03Xa1qH6jcJMrgdwv22Ei7cVdI=, tarball: https://gitlab.com/api/v4/projects/29686867/packages/npm/@4s1/changelog-config/-/@4s1/changelog-config-2.0.1.tgz}
     dev: true
 
   /@babel/code-frame/7.12.11:
