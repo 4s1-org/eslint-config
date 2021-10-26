@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [3.2.1](https://gitlab.com/4s1/eslint-config/compare/v3.2.0...v3.2.1) (2021-10-26)
 
+* Update deps
+
 ## [3.2.0](https://gitlab.com/4s1/eslint-config/compare/v3.1.2...v3.2.0) (2021-10-12)
 
 
