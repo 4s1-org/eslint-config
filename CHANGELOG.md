@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.2.2](https://gitlab.com/4s1/eslint-config/compare/v3.2.1...v3.2.2) (2021-10-31)
+
+
+### Bug Fixes
+
+* convert prettier config to cjs ([213b76a](https://gitlab.com/4s1/eslint-config/commit/213b76ab7259e56ab28c64f394c2bbc1b807dcda))
+
 ## [3.2.1](https://gitlab.com/4s1/eslint-config/compare/v3.2.0...v3.2.1) (2021-10-26)
 
 * Update deps
