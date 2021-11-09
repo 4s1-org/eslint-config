@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
-  "type": "module",
+  "type": "commonjs",
   "main": "./prettier.config.cjs",
   "files": [
     "prettier.config.cjs",
