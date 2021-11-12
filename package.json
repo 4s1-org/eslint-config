@@ -34,7 +34,7 @@
     "release:patch": "pnpm run release -- --release-as patch",
     "test": "echo no tests"
   },
-  "prettier": "./prettier.config.js",
+  "prettier": "./prettier.config.cjs",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.3.1",
     "@typescript-eslint/parser": "5.3.1",
