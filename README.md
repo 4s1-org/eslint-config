@@ -21,5 +21,5 @@ To use prettier add the following line in your `package.json`
 Add this package to your project:
 
 ```bash
-pnpm add @4s1/eslint-config -D
+pnpm add prettier @4s1/eslint-config -D
 ```
