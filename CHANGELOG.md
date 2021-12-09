@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.3.0](https://gitlab.com/4s1/eslint-config/compare/v3.2.2...v3.3.0) (2021-12-09)
+
+
+### Features
+
+* update typescript-eslint plugins ([3f0d85c](https://gitlab.com/4s1/eslint-config/commit/3f0d85c7f3ba9253251f2469d3ced9dc0c297791))
+
 ## [3.2.2](https://gitlab.com/4s1/eslint-config/compare/v3.2.1...v3.2.2) (2021-10-31)
 
 
