@@ -4,7 +4,8 @@
   "description": "ESLint config",
   "keywords": [
     "eslint",
-    "prettier"
+    "prettier",
+    "4s1"
   ],
   "bugs": {
     "url": "https://gitlab.com/4s1/eslint-config/issues"
@@ -57,7 +58,6 @@
     "prettier": ">= 2.4.0"
   },
   "publishConfig": {
-    "@4s1:registry": "https://gitlab.com/api/v4/projects/28730798/packages/npm/",
     "access": "public"
   }
 }
