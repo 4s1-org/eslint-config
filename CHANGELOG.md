@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.6.0](https://gitlab.com/4s1/eslint-config/compare/v3.5.0...v3.6.0) (2022-01-05)
+
 ## [3.5.0](https://gitlab.com/4s1/eslint-config/compare/v3.4.0...v3.5.0) (2021-12-20)
 
 ## [3.4.0](https://gitlab.com/4s1/eslint-config/compare/v3.3.0...v3.4.0) (2021-12-15)
