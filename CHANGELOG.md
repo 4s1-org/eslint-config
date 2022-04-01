@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.11.0](https://gitlab.com/4s1/eslint-config/compare/v3.10.0...v3.11.0) (2022-04-01)
+
+
+### Features
+
+* disable no-unused-vars rule of ESLint. TypeScript checks this sufficiently ([66f1781](https://gitlab.com/4s1/eslint-config/commit/66f1781919474a4c17f6bead9dd983ed437b9ea8))
+
 ## [3.10.0](https://gitlab.com/4s1/eslint-config/compare/v3.9.0...v3.10.0) (2022-03-09)
 
 ## [3.9.0](https://gitlab.com/4s1/eslint-config/compare/v3.7.0...v3.9.0) (2022-03-01)
