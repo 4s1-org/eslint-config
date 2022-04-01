@@ -10,6 +10,10 @@ extends:
   - 'plugin:@typescript-eslint/recommended'
   - 'prettier'
 rules:
+  # Unbenutzte Variablen werden ausreichend durch TypeScript geprüft (default ist Warnung).
+  # Das muss nicht noch durch ESLint laufen, zumal dann auch die "eslint-disable-next-line @typescript-eslint/no-unused-vars"
+  #   Ausnahmen alle entfallen.
+  '@typescript-eslint/no-unused-vars': 'off'
   # allow @ts-ignore
   '@typescript-eslint/ban-ts-comment':
     - off
