@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.13.0](https://github.com/4s1-org/eslint-config/compare/v3.12.0...v3.13.0) (2022-04-25)
+
+
+### Features
+
+* add comma-spacing rule ([bf26971](https://github.com/4s1-org/eslint-config/commit/bf26971d584529800181c5c7e03cb4efa26dd58c))
+* add no-constant-binary-expression rule ([a1e8d8c](https://github.com/4s1-org/eslint-config/commit/a1e8d8cd77948745e2ea99e39faf903d6555f86c))
+* add space-infix-ops rule ([d9a5119](https://github.com/4s1-org/eslint-config/commit/d9a51192769b7e64ef8e5525aac4c7abcc2be3c7))
+
 ## [3.12.0](https://github.com/4s1-org/eslint-config/compare/v3.11.0...v3.12.0) (2022-04-05)
 
 ## [3.11.0](https://github.com/4s1-org/eslint-config/compare/v3.10.0...v3.11.0) (2022-04-01)
