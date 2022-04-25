@@ -10,6 +10,9 @@ extends:
   - 'plugin:@typescript-eslint/recommended'
   - 'prettier'
 rules:
+  # Verhindert Fehler bei Vergleichen
+  # https://eslint.org/docs/rules/no-constant-binary-expression
+  'no-constant-binary-expression': error
   # Nach einem Komma muss ein Leerzeichen kommen, davor darf keins kommen.
   # https://eslint.org/docs/rules/comma-spacing
   'comma-spacing': error
