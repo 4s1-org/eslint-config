@@ -10,6 +10,9 @@ extends:
   - 'plugin:@typescript-eslint/recommended'
   - 'prettier'
 rules:
+  # Nach einem Komma muss ein Leerzeichen kommen, davor darf keins kommen.
+  # https://eslint.org/docs/rules/comma-spacing
+  'comma-spacing': error
   # Leerzeichen um Operatoren.
   # https://eslint.org/docs/rules/space-infix-ops
   'space-infix-ops': error
