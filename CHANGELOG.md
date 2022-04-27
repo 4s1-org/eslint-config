@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.13.1](https://github.com/4s1-org/eslint-config/compare/v3.13.0...v3.13.1) (2022-04-27)
+
+
+### Bug Fixes
+
+* peerDependencies ([ec846bb](https://github.com/4s1-org/eslint-config/commit/ec846bbf891bd6b68df3a9ad96e261063df43045))
+
 ## [3.13.0](https://github.com/4s1-org/eslint-config/compare/v3.12.0...v3.13.0) (2022-04-25)
 
 
