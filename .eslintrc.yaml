@@ -12,13 +12,13 @@ extends:
 rules:
   # Verhindert Fehler bei Vergleichen
   # https://eslint.org/docs/rules/no-constant-binary-expression
-  'no-constant-binary-expression': error
+  no-constant-binary-expression: error
   # Nach einem Komma muss ein Leerzeichen kommen, davor darf keins kommen.
   # https://eslint.org/docs/rules/comma-spacing
-  'comma-spacing': error
+  comma-spacing: error
   # Leerzeichen um Operatoren.
   # https://eslint.org/docs/rules/space-infix-ops
-  'space-infix-ops': error
+  space-infix-ops: error
   # Unbenutzte Variablen werden ausreichend durch TypeScript geprüft (default ist Warnung).
   # Das muss nicht noch durch ESLint laufen, zumal dann auch die "eslint-disable-next-line @typescript-eslint/no-unused-vars"
   #   Ausnahmen alle entfallen.
