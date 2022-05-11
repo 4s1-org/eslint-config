@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@4s1/ts-config': 1.4.1
-  '@types/node': 14.18.16
+  '@types/node': 14.18.17
   '@typescript-eslint/eslint-plugin': 5.23.0
   '@typescript-eslint/parser': 5.23.0
   eslint: 8.15.0
@@ -20,7 +20,7 @@ dependencies:
 
 devDependencies:
   '@4s1/ts-config': 1.4.1
-  '@types/node': 14.18.16
+  '@types/node': 14.18.17
   eslint: 8.15.0
   prettier: 2.6.2
   standard-version: 9.3.2
@@ -122,8 +122,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node/14.18.16:
-    resolution: {integrity: sha512-X3bUMdK/VmvrWdoTkz+VCn6nwKwrKCFTHtqwBIaQJNx4RUIBBUFXM00bqPz/DsDd+Icjmzm6/tyYZzeGVqb6/Q==}
+  /@types/node/14.18.17:
+    resolution: {integrity: sha512-oajWz4kOajqpKJMPgnCvBajPq8QAvl2xIWoFjlAJPKGu6n7pjov5SxGE45a+0RxHDoo4ycOMoZw1SCOWtDERbw==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
