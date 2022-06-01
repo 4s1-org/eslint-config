@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.14.0](https://github.com/4s1-org/eslint-config/compare/v3.13.2...v3.14.0) (2022-06-01)
+
+
+### Features
+
+* support TypeScript 4.7 ([3695e86](https://github.com/4s1-org/eslint-config/commit/3695e86d2f89ba07748e587619f8986b6157a009))
+
 ## [3.13.2](https://github.com/4s1-org/eslint-config/compare/v3.13.1...v3.13.2) (2022-04-27)
 
 ## [3.13.1](https://github.com/4s1-org/eslint-config/compare/v3.13.0...v3.13.1) (2022-04-27)
