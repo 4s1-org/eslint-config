@@ -1,4 +1,4 @@
-# ESlint Config
+# ESLint and Prettier Config
 
 These are settings for [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/).
 
@@ -8,9 +8,9 @@ Add this package to your project:
 
 ```bash
 # pnpm
-pnpm add prettier @4s1/eslint-config -D
+pnpm add @4s1/eslint-config prettier eslint -D
 # npm
-npm install prettier @4s1/eslint-config -D
+npm install @4s1/eslint-config prettier eslint -D
 ```
 
 Create a `.eslintrc.yaml` file in your project root folder and add the following content:
