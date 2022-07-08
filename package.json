@@ -1,7 +1,7 @@
 {
   "name": "@4s1/eslint-config",
   "version": "3.14.0",
-  "description": "ESLint config",
+  "description": "ESLint and Prettier config",
   "keywords": [
     "eslint",
     "prettier",
