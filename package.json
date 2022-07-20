@@ -37,8 +37,8 @@
   },
   "prettier": "./prettier.config.cjs",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.30.5",
-    "@typescript-eslint/parser": "5.30.5",
+    "@typescript-eslint/eslint-plugin": "5.30.6",
+    "@typescript-eslint/parser": "5.30.6",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0"
   },
